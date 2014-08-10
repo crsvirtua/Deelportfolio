@@ -1,0 +1,266 @@
+/* 
+    Document   : index
+    Created on : Jun 7, 2012, 3:58:01 PM
+    Author     : Peter van Kleef & Richard Floris
+    Description:
+*/
+
+html {
+    background-color: #6c8592;
+}
+img {
+    float: left;
+    height: 70px;
+    width: 70px;
+    padding: 0px;
+    margin: -5px 0px 0px -100px;
+    position: absolute;
+}
+#body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#contentcontainer {
+    width: 900px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background-color: #dfe2e5;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#pageTitle {
+    width: 870px;
+    height: 50px;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    float: left;
+    margin: 0px 15px 30px 15px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: dashed;
+    border-color: #8F8F8F;
+    line-height: 50px;
+}
+#pageError {
+    height: 60px;
+    border: 1px;
+    border-style: dotted;
+    border-color: red;
+    color: red;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 30px 10px 80px;
+    background-color: white;
+    clear: both;
+    line-height: 30px;
+}
+#pageContent {
+    width: 900px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+#contentLeft {
+    width: 320px;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    padding: 10px;
+}
+#contentRight {
+    width: 520px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+}
+.selectboxHeader {
+    width: 268px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background-color: #393939;
+    color: white;
+}
+.selectboxDiv {
+    width: 268px;
+    margin: 0px auto 40px auto;
+    padding: 0px;
+    clear: all;
+}
+.selectboxDivRol {
+    width: 238px;
+    margin: 0px auto 40px auto;
+    padding: 0px;
+    clear: all;
+}
+.selectboxEmpty {
+    width: 238px;
+    margin: 0px auto 40px auto;
+    padding: 0px;
+    clear: all;
+    font-family: verdana;
+    font-size: 11px;
+    color: red;
+}
+.selectbox {
+    width: inherit;
+    margin: inherit;
+    padding: inherit;
+    float: left;
+}
+.selectboxItem1 {
+    background-color: #BEBEBE;
+    font-family: verdana;
+    font-size: 14px;
+}
+.selectboxItem2 {
+    background-color: #EEEEEE;
+    font-family: verdana;
+    font-size: 14px;
+}
+.selectboxWideHeader {
+    width: 438px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background-color: #393939;
+    color: white;
+}
+.selectboxWideDiv {
+    width: 438px;
+    margin: 0px auto 40px auto;
+    padding: 0px;
+    clear: all;
+}
+.selectboxWide {
+    width: inherit;
+    margin: inherit;
+    padding: inherit;
+    float: left;
+}
+.selectboxWideItem1 {
+    background-color: #BEBEBE;
+    font-family: verdana;
+    font-size: 14px;
+}
+.selectboxWideItem2 {
+    background-color: #EEEEEE;
+    font-family: verdana;
+    font-size: 14px;
+}
+.submitButton a { 
+    width: 238px; 
+    height: 40px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    clear: both; 
+    padding: 0px; 
+    margin: 0px auto 0px auto; 
+    color: white; 
+    line-height: 40px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButton a:hover { 
+    width: 238px; 
+    height: 40px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    clear: both; 
+    padding: 0px; 
+    margin: 0px auto 0px auto; 
+    color: white; 
+    line-height: 40px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButton a:visited { 
+    width: 238px; 
+    height: 40px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    clear: both; 
+    padding: 0px; 
+    margin: 0px auto 0px auto; 
+    color: white; 
+    line-height: 40px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitFormButton { 
+    width: 238px; 
+    height: 40px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    clear: both; 
+    padding: 0px; 
+    margin: 0px auto 40px auto; 
+    color: white; 
+    line-height: 40px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+.submitFormButton:hover { 
+    width: 238px; 
+    height: 40px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    clear: both; 
+    padding: 0px; 
+    margin: 0px auto 40px auto; 
+    color: white; 
+    line-height: 40px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+.inputfieldHeader {
+    width: 238px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background-color: #393939;
+    color: white;
+}
+.inputfield {
+    width: 238px;
+    height: 50px;
+    border: 1px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 40px 0px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    text-align: left;
+}

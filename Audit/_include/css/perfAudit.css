@@ -1,0 +1,693 @@
+/* 
+    Document   : index
+    Created on : Jun 7, 2012, 3:58:01 PM
+    Author     : Peter van Kleef & Richard Floris
+    Description:
+*/
+
+html {
+    background-color: #6c8592;
+}
+#body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#contentcontainer {
+    width: 900px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background-color: #dfe2e5;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#pageTitle {
+    width: 870px;
+    height: 50px;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    float: left;
+    margin: 0px 15px 30px 15px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: dashed;
+    border-color: #8F8F8F;
+    line-height: 50px;
+}
+#pageError {
+    height: 60px;
+    border: 1px;
+    border-style: dotted;
+    border-color: red;
+    color: red;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 30px 10px 80px;
+    background-color: white;
+    clear: both;
+    line-height: 30px;
+}
+#pageContent {
+    width: 900px;
+    margin: 0px 0px 0px -1px;
+    padding: 0px;
+    float: left;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: #dfe2e5;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#auditInfo {
+    width: 860px;
+    height: 80px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+    text-align: center;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: dashed;
+    border-color: #8F8F8F;
+}
+.auditInfoField {
+    width: 150px;
+    height: 38px;
+    background-color: #cccccc;
+    border: 1px;
+    border-color: #393939;
+    border-style: solid;
+    float: left;
+    padding: 10px 3px 3px 3px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+.auditInfoFieldLong {
+    width: 220px;
+    height: 38px;
+    background-color: #cccccc;
+    border: 1px;
+    border-color: #393939;
+    border-style: solid;
+    float: left;
+    padding: 10px 3px 3px 3px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+.auditInfoFieldLong2 {
+    width: 220px;
+    height: 38px;
+    background-color: #cccccc;
+    border: 1px;
+    border-color: #393939;
+    border-style: solid;
+    float: left;
+    padding: 10px 3px 3px 3px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+.auditInfoFieldLast {
+    width: 150px;
+    height: 38px;
+    background-color: #cccccc;
+    border: 1px;
+    border-color: #393939;
+    border-style: solid;
+    float: left;
+    padding: 10px 3px 3px 3px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+.changeButton a { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.changeButton a:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+.changeButton a:visited { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+
+.kenmerkContainer {
+    width: 860px;
+    min-height: 250px;
+    margin: 40px 20px 0px 20px;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #BCBCBC;
+    text-align: center;
+    float: left;
+}
+.kenmerkHeader {
+    width: 70px;
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #393939;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+.kenmerkName {
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #CCCCCC;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    float: left;
+}
+.kenmerkName {
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #CCCCCC;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    float: left;
+}
+.kenmerkOpmerking {
+    height: 90px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #CCCCCC;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    float: left;
+}
+#kenmerkSamenvattingHeader {
+    width: 110px;
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #393939;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 58px 0px 0px -860px;
+    padding: 10px;
+    float: left;
+    text-align: left;
+}
+.KenmerkSamenvatting{
+    width: 860px;
+    min-height: 80px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    float: left;
+}
+.indicatorHeader {
+    width: 90px;
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #393939;
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px 0px 10px 40px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    clear: both;
+}
+#bijlage {
+  width: 900px;
+    min-height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #BCBCBC;
+    text-align: left;
+    float: left;  
+}
+.indicatorName {
+    width: 425px;
+    height: 15px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #CCCCCC;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    float: left;
+    line-height: 15px;
+}
+.indicatorName2 {
+    width: 425px;
+    height: 33px;
+    border: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #393939;
+    background-color: #CCCCCC;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px 10px 10px 0px;
+    padding: 2px 10px 0px 10px;
+    float: left;
+    line-height: 15px;
+}
+.radioContainer {
+    width: 10px;
+    height: 37px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+.radioLabel {
+    width: 17px;
+    height: 22px;
+    float: left;
+}
+.radioButton {
+    width: 18px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+.radio {
+    margin: 0px;
+    padding: 0px;
+}
+.submitButton a { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButton a:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+.submitButton a:visited { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButtonGreen a { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #32CD32; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButtonGreen a:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #CB4154; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+.submitButtonGreen a:visited { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #32CD32; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButtonOrange a { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #FF7E00; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitButtonOrange a:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #32CD32; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+.submitButtonOrange a:visited { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #FF7E00; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.opmerkingContainer {
+    min-width: 230px;
+    min-height: 200px;
+    background-color: #CCCCCC;
+    position: absolute;
+    margin: 59px 20px 0px 610px;
+    border: 1px;
+    border-style: solid;
+    border-color: #393939;
+    padding: 10px;
+}
+.opmerkingField {
+    width: 210px;
+    height: 150px;
+    line-height: 15px;
+}
+.submitOpmerkingButton a { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px 0px 0px 10px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitFormButtonSmall { 
+    width: 150px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 0px auto 0px 0px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}
+.submitFormButtonSmall:hover { 
+    width: 150px; 
+    height: 35px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 0px auto 0px 0px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}
+#submitSwitch a:hover { 
+    width: 20px; 
+    height: 10px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px 0px 0px 10px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+#submitSwitch a:visited { 
+    width: 20px; 
+    height: 10px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px 0px 0px 10px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.submitOpmerkingButton a:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 10px 0px 0px 10px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    float: left;
+}
+.submitOpmerkingButton a:visited { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px 0px 0px 10px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+}
+.imageVinkje {
+    width: 12px;
+    height: 12px;
+    float: left;
+    display: inline;
+}
+.submitFormButton { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}
+.submitFormButton:hover { 
+    width: 98px; 
+    height: 35px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 10px auto 0px 15px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}
+#bottomLeft {
+    width: 440px;
+    height: 50px;
+    padding: 50px 0px 30px 0px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    float: left;
+}
+#bottomRight {
+    width: 440px;
+    height: 50px;
+    padding: 50px 0px 30px 0px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    float: left;
+}
+.submitFormButtonLarge { 
+    width: 250px; 
+    height: 45px; 
+    display: block; 
+    background-color: #393939; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin: 0px auto 0px 100px; 
+    color: white; 
+    line-height: 45px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}
+.submitFormButtonLarge:hover { 
+    width: 250px; 
+    height: 45px; 
+    display: block; 
+    background-color: #336699; 
+    text-decoration: none; 
+    float: left;
+    padding: 0px; 
+    margin: 0px auto 0px 100px; 
+    color: white; 
+    line-height: 35px; 
+    border: 0px; 
+    border-style: none; 
+    font-family: verdana;
+    font-weight: bold;
+}

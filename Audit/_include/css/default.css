@@ -1,0 +1,446 @@
+/* 
+    Document   : default.css
+    Created on : 31-mei-2012, 10:45:05
+    Author     : Peter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html {
+    width: 100%;
+    height: 100%;
+
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #6c8592;
+}
+.body {
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    background-color: red;
+    padding: 0px;
+    background-color: #dfe2e5;
+}
+.listBox {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: normal;
+    border-color: #54585A;
+    color: #54585A;
+    border: 1px;
+    border-style: solid;
+}
+.listBox1 {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #54585A;
+    border: 1px;
+    border-style: solid;
+    border-color: #54585A;
+}
+.listBox3 {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #54585A;
+    border: 1px;
+    border-style: solid;
+    border-color: #54585A;
+}
+.listBoxOption1 {
+    background-color: #BEBEBE;
+}
+.listBoxOption2 {
+    background-color: #EEEEEE;
+}
+.selectBox {
+    width: 200px;
+    float: left;
+    margin: 0px 125px 30px 125px;
+    padding: 0px;
+}
+.selectBox1 {
+    width: 178px;
+    float: left;
+    margin: 0px 125px 30px 125px;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #54585A;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+.selectBox5 {
+    width: 178px;
+    float: left;
+    margin: 0px 0px 0px 20px;
+
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+#contentleft {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#contentright {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;  
+}
+#contentleftoverview {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-color: #dfe2e5;
+}
+#contentrightoverview {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-color: #dfe2e5;
+}
+#contentleft5 {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#contentright5 {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;  
+}
+#contentmiddle {
+    width: 700px;
+    margin: 0px 100px 0px 100px;
+    padding: 0px;
+    float: left;  
+}
+#contentleft1 {
+    width: 430px;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    float: left;
+    background-color: #dfe2e5;
+}
+#contentright1 {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    float: left;  
+    background-color: #dfe2e5;
+}
+#pageTitle {
+    width: 100%;
+    height: 2px;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px 50px 20px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+#pageTitleLogin {
+    width: 100%;
+    height: 2px;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px 50px 0px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.submitButton {
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin: 0px 125px 0px 125px;
+}
+.submitLogin {
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin: 0px 150px 0px 250px;
+}
+.submit {
+    width: 200px;
+    height: 50px;
+    background-color: #393939;
+    border: 0px;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D6D6D6;
+    margin: 20px 0px 0px 0px;
+}
+.selectBoxTitle {
+    width: 198px;
+    height: 15px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #54585A;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 125px 0px 125px;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #393939;
+    clear: both;
+}
+.selectBoxTitle1 {
+    width: 398px;
+    height: 15px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #54585A;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 125px 0px 125px;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #393939;
+    clear: both;
+}
+.selectBoxTitle5 {
+    width: 398px;
+    height: 15px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #54585A;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 125px 0px 20px;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #393939;
+    clear: both;
+}
+.inputfield {
+    width: 178px;
+    height: 50px;
+    border: 1px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+}
+.inputfield1 {
+    width: 178px;
+    height: 50px;
+    border: 1px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 10px 0px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+}
+.inputfield2 {
+    width: 100px;
+    height: 50px;
+    border: 1px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 10px 0px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+}
+.inputfield3 {
+    width: 770px;
+    height: 50px;
+    border: 1px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 10px 10px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+}
+.inputfieldoverview1 {
+    width: 60px;
+    height: 50px;
+    border: 0px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px;
+    margin: 0px 0px 10px 15px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+    text-align: center;
+}
+.inputfieldoverview2 {
+    width: 60px;
+    height: 50px;
+    border: 0px;
+    border-color: #54585A;
+    border-style: solid;
+    border-color: #393939;
+    padding: 0px;
+    margin: 0px 0px 10px 15px;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #393939;
+    float: left;
+    text-align: center;
+}
+
+.inputfieldcontainer {
+    width: 180px;
+    height: 50px;
+    margin: 0px 0px 30px 125px;
+}
+.inputfieldcontainer1 {
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 30px 10px;
+    float: left;
+}
+.inputfieldcontainer1overview {
+    width: 400px;
+    height: 50px;
+    margin: 0px 0px 30px 25px;
+    float: left;
+    text-align: left;
+}
+.inputfieldcontainer2 {
+    width: 200px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+.inputfieldcontainer3 {
+    height: 52px;
+    margin: 0px 30px 8px 0px;
+    float: left;
+}
+.inputfieldcontainer4 {
+    width: 125px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    clear:all;
+}
+.inputfieldcontainer5 {
+    width: 125px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.inputfieldcontainerPW {
+    width: 180px;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.spacer {
+    width: 300px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#pageError {
+    width: 500px;
+    margin: 0px auto 50px auto;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    font-family: verdana;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+}
+.addNewButton {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    float: left;
+    margin: 0px 0px 25px 125px;
+    font-family: verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #CCCCCC;
+    border: 0px;
+}
+.radio {
+    display: inline-block;
+    width: 12px;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    float: left;
+}
+label {
+    display: inline-block;
+    width: 12px;
+    margin: 10px;
+    padding: 0px;
+    float: left;
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+#kenmerkdetailoverview {
+    width: 175px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+.addNewButton a { width: 200px; height: 30px; display: block; color: #CCCCCC; font-style: normal; text-decoration: none; }
+.addNewButton a:hover { width: 200px; height: 30px; display: block; color: #336699; font-style: normal; text-decoration: underline; }
+.addNewButton a:active { width: 200px; height: 30px; display: block; color: #336699; font-style: normal; text-decoration: underline; }
+.addNewButton a:visited { width: 200px; height: 30px; display: block; color: #CCCCCC; font-style: normal; text-decoration: none; }
