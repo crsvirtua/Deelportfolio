@@ -1,0 +1,11 @@
+Niveau_Index,Niveau_Omschrijving,Niveau_RendementIndex,Niveau_voorlopig
+0.5,Pro,1,5
+1,BBL,2,10
+1.5,BBL/KBL,3.200000048,15
+2,KBL,4,20
+2.5,VMBO Breed,3,30
+3,TLW,8,30
+3.5,TL / Havo,10,35
+4,Havo,16,40
+4.5,Havo / VWO,20,45
+5,VWO,32,50

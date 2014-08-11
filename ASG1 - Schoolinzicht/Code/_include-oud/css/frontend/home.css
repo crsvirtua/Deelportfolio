@@ -1,0 +1,442 @@
+#step2container {
+    width: 528px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+    #step2header {
+        width: 527px;
+        height: 100px;
+        background-color: #CCEAF3;
+        margin: 3px 0px 0px 1px;
+        padding: 0px;
+    }
+        #step2image {
+            width: 55px;
+            height: 55px;
+            margin: 23px 20px 0px 120px;
+            padding: 0px;
+            float: left;
+        }
+        #step2title {
+            width: 200px;
+            height: 66px;
+            line-height: 33px;
+            margin: 17px 0px 0px 0px;
+            padding: 0px;
+            float: left;
+            font-family: otari-regular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: #0098C3;
+        }
+    .step2column {
+        width: 175px;
+        height: 252px;
+        background-color: #E5F4F9;
+        margin: 2px 0px 0px 1px;
+        padding: 0px 0px 0px 0px;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+#step3container {
+    width: 241px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px;
+    float: left;
+}
+    #step3header {
+        width: 240px;
+        height: 100px;
+        background-color: #B8E2EE;
+        margin: 3px 0px 0px 1px;
+        padding: 0px;
+    }
+        .stepimage {
+            width: 55px;
+            height: 55px;
+            margin: 22px 10px 0px 10px;
+            padding: 0px;
+            float: left;
+        }
+        .steptitle {
+            width: 159px;
+            height: 52px;
+            line-height: 26px;
+            margin: 23px 0px 0px 0px;
+            padding: 0px;
+            float: left;
+            font-family: otari-regular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: #0098C3;
+        }
+    #step3column {
+        width: 240px;
+        height: 252px;
+        background-color: #D9F0F6;
+        margin: 2px 0px 0px 1px;
+        padding: 0px;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+#step1container {
+    width: 239px;
+    margin: 0px 1px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+    #step1header {
+        width: 239px;
+        height: 100px;
+        background-color: #E0F2F8;
+        margin: 3px 0px 0px 0px;
+        padding: 0px;
+    }
+    #step1column {
+        width: 239px;
+        height: 252px;
+        background-color: #EDF8FB;
+        margin: 2px 0px 0px 0px;
+        padding: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+.postalcode {
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0px 15px 5px 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #FFFFFF;
+    border-top: 1px;
+            border-right: 1px;
+            border-bottom: 1px;
+            border-left: 1px;
+            border-style: solid;
+    border-color: #F64519;
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+.f1 {
+    min-width: 100px;
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #202020;
+    border: 0px;
+}
+.f2 {
+    margin: 0px;
+    padding: 0px 10px 5px 0px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #202020;
+    border: 0px;
+    float: left;
+    line-height: 16px;
+}
+.f3 {
+    height: 46px;
+    margin: 0px;
+    padding: 21px 10px 17px 10px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    color: #202020;
+    border: 0px;
+    line-height: 84px;
+}
+.f4 {
+    width: 170px;
+    height: 152px;
+    margin: 0px;
+    padding: 15px 30px 50px 30px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #202020;
+    border: 0px;
+    line-height: 40px;
+}
+.f5{
+    width: 300px;
+    height: 10px;
+    margin: 0px;
+    padding: 20px 30px 10px 30px;
+     font-family: otari-regular;
+            font-style: normal;
+           
+    font-weight: bold;
+    color: #202020;
+    border: 0px;
+    line-height: 40px;
+}
+.f6{
+    width: 900px;
+    height: 5px;
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+     font-family: otari-regular;
+            font-style: normal;
+           
+    font-weight: normal;
+    color: #202020;
+    border: 0px;
+    line-height: 18px;
+}
+.radiobutton {
+    margin: 3px 15px 0px 15px;
+}
+#comparebutton {
+    width: 199px;
+    height: 54px;
+    background-image:url('../../imgFrontend/vergelijkbuttonhome.png');
+    border: 0px;
+    padding: 0px;
+    margin: 96px 0px 0px 14px;
+}
+.submitlist {
+    width: 199px;
+    height: 45px;
+    margin: 27px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/listbuttonhomeblue.png');
+    background-color: #D9F0F6;
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+      background-repeat: no-repeat;
+}
+.submitlist:hover {
+    width: 199px;
+    height: 45px;
+    margin: 27px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/listbuttonhomehover.png');
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+      background-repeat: no-repeat;
+}
+.submittile {
+    width: 211px;
+    height: 45px;
+    margin: 15px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/tilebuttonhome.png');
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+}
+.submitcompare {
+    width: 218px;
+    height: 38px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/vergelijken.png');
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 0px;
+    cursor:pointer;
+    background-color: #FFFFFF;
+}
+.submittile:hover {
+    width: 211px;
+    height: 45px;
+    margin: 15px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/tilebuttonhomeclicked.png');
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+}
+.submitmap {
+    width: 199px;
+    height: 47px;
+    margin: 15px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/mapbuttonhomeblue.png');
+    background-color: #D9F0F6;
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+    background-repeat: no-repeat;
+}
+.submitmap:hover {
+    width: 199px;
+    height: 47px;
+    margin: 15px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/mapbuttonhomehover.png');
+    background-color: #D9F0F6;
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+      background-repeat: no-repeat;
+}
+#displaysubmitbutton {
+    margin: 0px;
+    padding: 0px;
+}
+#submitmapdisabled {
+    width: 211px;
+    height: 45px;
+    margin: 15px 15px 15px 15px;
+    padding: 0px;
+}
+#postcodemessage {
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    color: red;
+    line-height: 12px;
+    float: left;
+    width: 170px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+#afstandskeuzelijst {
+    line-height: 14px;
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+}
+.afstandskeuzelijst {
+    line-height: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.postcodevoorbeeld {
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    color: grey;
+    line-height: 12px;
+    float: left;
+    width: 170px;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;   
+}
+#homeimage {
+    width: 1008px;
+    height: 58px;
+    background-color: #c1c1c1;
+    margin: 10px auto 0px auto;
+    float: left;
+    border: 1px;
+    border-color: #000;
+    border-style: solid;
+    line-height: 58px;
+    text-align: center;
+}
+
+#stepcontainerintro {
+    width: 1008px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px;
+    float: right;
+}
+    #stepheaderintro {
+        width: 1008px;
+        height: 100px;
+        background-color: #B8E2EE;
+        margin: 5px 10px 0px 1px;
+        padding: 0px;
+    }
+        
+        .steptitleintro {
+            width: 159px;
+            height: 52px;
+            line-height: 26px;
+            margin: 23px px 0px 0px;
+            padding: 0px;
+            float: left;
+            font-family: otari-regular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: #0098C3;
+        }
+    #stepcolumnintro {
+        width: 1008px;
+        height: 600px;
+        background-color: #D9F0F6;
+        margin: 2px 0px 0px 1px;
+        padding: 0px;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        font-family: calibri;
+            font-style: normal;
+            font-weight: normal;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+    .start {
+    width: 199px;
+    height: 47px;
+    margin: 25px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    
+    background-image:url('../../imgFrontend/start.png');
+    background-color: #B8E2EE;
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+}
+.start:hover {
+    width: 199px;
+    height: 47px;
+    margin: 25px 15px 15px 15px;
+    padding: 0px;
+    border: 0px;
+    background-image:url('../../imgFrontend/starthover.png');
+    background-color: #B8E2EE;
+    font-family: verdana;
+    font-size: 0px;
+    line-height: 45px;
+    cursor:pointer;
+}

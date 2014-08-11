@@ -1,0 +1,692 @@
+/* 
+    Document   : homeIE
+    Created on : 27-jun-2012, 14:37:30
+    Author     : Peter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+    #menucontainer {
+        float: right;
+        text-align: left;
+        margin: 15px 5px 0px 5px;
+        padding: 0px;
+    }
+        .menuitem {
+            float: left;
+            line-height: 29px;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        .menuitem li {
+            height: 29px;
+            display: inline;
+        }
+        .menuitem a {
+            height: 40px;
+            padding: 5px 20px 0px 20px;
+            color: #FFFFFF;
+            font-family: verdana;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;      
+            background-image:url('../../imgFrontend/menubackground.png');
+            background-repeat: repeat-x;
+            line-height: 29px;
+        }
+        .menuitem a:hover {
+            height: 40px;
+            line-height: 29px;
+            background-image:url('../../imgFrontend/menuhoverbackground.png');
+            background-repeat: repeat-x;
+        }
+
+        .currentmenuitem {
+            float: left;
+            line-height: 29px;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            line-height: 10px;
+        }
+        .currentmenuitem li {
+            height: 29px;
+            display: inline;
+            line-height: 29px;
+        }
+        .currentmenuitem a {
+            height: 29px;
+            padding: 3px 20px 3px 20px;
+            color: #FFFFFF;
+            font-family: verdana;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;      
+            background-image:url('../../imgFrontend/menuhoverbackground.png');
+            background-repeat: repeat-x;
+            line-height: 29px;
+        }
+        .currentmenuitem a:hover {
+            height: 29px;
+            line-height: 29px;
+            background-image:url('../../imgFrontend/menuhoverbackground.png');
+            background-repeat: repeat-x;
+        }
+        img {
+            border: 0px;
+            border-style: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .helptextside {
+            line-height: 3px;
+            font-size: 0px;
+        }
+        .f2 {
+            width: 150px;
+        }
+        #step2container {
+            float: left;
+            width: 531px;
+            clear: none;
+
+        }
+        #step2header {
+            width: 530px;
+        }
+        #step1header {
+            width: 250px;
+             ;
+        }     
+        #step1column{
+            height: 270px;
+          
+        }
+        .step2column{
+            height: 270px;
+            width: 176px;
+        }
+        
+#step3container {
+    width: 238px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px;
+    float: left;
+    position: absolute;
+}
+    #step3header {
+        width: 237px;
+        height: 100px;
+         background-color: #B8E2EE;
+        margin: 3px 0px 0px 1px;
+        padding: 0px;
+    }
+        .stepimage {
+            width: 55px;
+            height: 55px;
+            margin: 22px 10px 0px 10px;
+            padding: 0px;
+            float: left;
+        }
+        .steptitle {
+            width: 156px;
+            height: 52px;
+            line-height: 26px;
+            margin: 23px 0px 0px 0px;
+            padding: 0px;
+            float: left;
+            font-family: verdana;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19px;
+            color: #202020;
+        }
+    #step3column {
+        width: 237px;
+        height: 270px;
+        background-color: #D9F0F6;
+        margin: 2px 0px 0px 1px;
+        padding: 0px;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        
+        border-color: #7FCBE1;
+    }
+    #intro{
+        width: 1008 px;
+        height: relative;
+        background-color: #D9F0F6;
+        margin: 2px 0px 0px 1px;
+        padding: 0px;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        font-family: calibri;
+            font-style: normal;
+            font-weight: normal;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+.submitlist {
+    width: 206px;
+}
+.submitlist:hover {
+    width: 206px;
+}
+.submitmap {
+    width: 206px;
+}
+.submitmap:hover {
+    width: 206px;
+}
+#submitmapdisabled {
+    width: 206px;
+}
+.f4 {
+    width: 170px;
+    padding: 20px 40px 0px 40px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    color: #202020;
+}
+        #listtabs {
+            height: 24px;
+            min-width: 300px;
+            margin: 14px 0px 0px -40px;
+            padding: 0px;
+            float: left;
+        }
+            .tabitem {
+                float: left;
+                line-height: 24px;
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+            }
+            .tabitem li {
+                height: 24px;
+                display: inline;
+                margin: 0px;
+                line-height: 24px;
+                padding: 0px;
+            }
+            .tabitem a {
+                height: 24px;
+               
+                color: #000000;
+                font-family: verdana;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: none;      
+                background-image:url('../../imgFrontend/menubackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+                line-height: 24px;
+                padding: 0px 10px 0px 10px;
+            }
+            .tabitem a:hover {
+                height: 24px;
+                line-height: 24px;
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+                color: #FFFFFF;
+                line-height: 24px;
+                padding: 0px 10px 0px 10px;
+            }
+
+            .currenttabitem {
+                float: left;
+                line-height: 24px;
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                height: 24px;
+            }
+            .currenttabitem li {
+                height: 24px;
+                display: inline;
+                margin: 0px;
+            }
+            .currenttabitem a {
+                height: 24px;
+                padding: 0px 10px 0px 10px;
+                color: #FFFFFF;
+                font-family: verdana;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: none;      
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+            }
+            .currenttabitem a:hover {
+                height: 24px;
+                line-height: 24px;
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+                color: #FFFFFF;
+            }
+            .listdistance {
+                width: 117px;
+                height: 30px;
+                font-family: verdana;
+                font-size: 12px;
+                font-weight: normal;
+                color: #6b6c6e;
+                line-height: 30px;
+                background-color: #EDF8FB;
+                padding: 0px;
+                margin: 1px 0px 1px 0px;
+                border-top: 2px;
+                border-right: 0px;
+                border-bottom: 2px;
+                border-left: 0px;
+                border-style: solid;
+               border-color: #7FCBE1;
+                float: left;
+                text-align: center;
+            }
+            .liststudents {
+                width: 106px;
+                height: 30px;
+                font-family: verdana;
+                font-size: 12px;
+                font-weight: normal;
+                color: #6b6c6e;
+                line-height: 30px;
+                background-color: #EDF8FB;
+                
+                padding: 0px;
+                margin: 1px 0px 1px 0px;
+                border-top: 2px;
+                border-right: 0px;
+                border-bottom: 2px;
+                border-left: 0px;
+                border-style: solid;
+                border-color: #7FCBE1;
+                float: left;
+                text-align: center;                
+            }
+            .imageMap {
+                margin: 20px 0px -20px 0px;
+            }
+    .selectedschool1 {
+        margin: 2px 0px 0px 0px;
+        padding: 0px;
+        background-color: #D9F0F6;
+        float: left;
+    }
+    .selectedschool {
+        margin: 2px 0px 0px 3px;
+        padding: 0px;
+        background-color: #D9F0F6;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+    }
+        #schoolname1 {
+            width: 250px;
+            height: 32px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            background-color: #Dbdb01;
+            font-family: verdana; 
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+            color: #000000;
+            line-height: 32px;
+            border: 0px;
+            border-style: solid;
+            border-color: #5f5f5f;
+        }
+        #schoolname2 {
+            width: 250px;
+            height: 32px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            background-color: #5ec400;
+            font-family: verdana; 
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+            color: #000000;
+            line-height: 32px;
+        }
+        #schoolname3 {
+            width: 250px;
+            height: 32px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            background-color: #d51f0b;
+            font-family: verdana; 
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+            color: #000000;
+            line-height: 32px;
+        }
+        .schooladdress {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 23px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schooltype {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+        
+            line-height: 35px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+        }
+        .schoolextra {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schoolboard {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+         
+        }
+        .schoolwebsite {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schoolstudents {
+            width: 250px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;  
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+        }
+        .schoolpicture {
+            margin: 0px;
+            padding: 12px 22px 15px 22px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+          
+        }
+        .schoolmission {
+            width: 250px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            
+        }
+        .schoolvision {
+            width: 250px;
+            margin: 0px;
+            padding: 0px 5px 10px 5px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+        }
+#compareright {
+    width: 752px;
+    margin: -1px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+    #comparerighttop {
+        width: 752px;
+        margin: 0px;
+        padding: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 3px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+        float: left;
+    }
+    #comparerightcontent {
+        width: 750px;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        float: left;
+        background-color: #D9F0F6;
+    }
+        .compareschool {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+        .compareschool2 {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+        .compareschool3 {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+            .compareschooltext {
+                width: 390px;
+                float: left;
+                margin: 0px;
+                padding: 0px 0px 0px 0px;
+                font-family: verdana; 
+                font-size: 10px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
+            .compareschooltextmall {
+                width: 250px;
+                float: right;
+                margin: 0px;
+                padding: 0px 0px 0px 0px;
+                font-family: verdana; 
+                font-size: 10px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
+#profileright {
+    width: 752px;
+    margin: -1px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+    #profilerighttop {
+        width: 752px;
+        margin: 0px;
+        padding: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 3px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #7FCBE1;
+        float: left;
+    }
+    #profilerightcontent {
+        width: 750px;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        float: left;
+        background-color: #D9F0F6;
+    }
+        .profileschool {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+        .profileschool2 {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+        .profileschool3 {
+            width: 740px;
+            height: 186px;
+            padding: 2px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            margin: 0px;
+        }
+            .profileschooltext {
+                width: 390px;
+                float: left;
+                margin: 0px;
+                padding: 0px 0px 0px 0px;
+                font-family: verdana; 
+                font-size: 10px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
+            .profileschooltextmall {
+                width: 250px;
+                float: right;
+                margin: 0px;
+                padding: 0px 0px 0px 0px;
+                font-family: verdana; 
+                font-size: 10px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
+        #floatingDiv {
+            height: 140px;
+            position: fixed;
+            display:block;
+            top:30%;
+            left:50%;
+            width:80px;
+            margin: 10px 0px 0px -495px;
+            background-color: #D9F0F6;
+        }
+        #floatingError {
+            min-height: 30px;
+            position: fixed;
+            display:block;
+            top: 30%;
+            left: 50%;
+            width:280px;
+            margin: 10px 0px 0px -80px;
+            background-color: #D9F0F6;
+            padding: 55px 10px 55px 10px;
+            line-height: 15px;
+            color: #FFFFFF;
+            font-size: 13px;
+            font-weight: bold;
+        }
