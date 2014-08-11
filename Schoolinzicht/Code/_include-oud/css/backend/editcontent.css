@@ -1,0 +1,420 @@
+/* 
+    Document   : editcontent
+    Created on : 31-jan-2012, 9:41:33
+    Author     : Peter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#editcontentcontainer {
+    width: 990px;
+    margin: 9px 9px 9px 9px;
+    padding: 0px;
+    text-align: center;
+    float: left;
+}
+#editcontentleftrightcontainer {
+    width: 990px;
+    margin: 0px;
+    padding: 0px;
+}
+    #editcontentleftcontainer {
+        width: 575px;
+        margin: 0px;
+        border-top: 0px;
+        border-right: 1px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #000;
+        float: left;
+        padding: 0px;
+        text-align: left;
+    }
+        .editcontentitem {
+            width:  557px;
+            margin: 9px 9px 0px 9px;
+            float: left;
+        }
+            .editcontentitemtitle {
+                width: 105px;
+                height: 25px;
+                float: left;
+                background-color: #4c4d4f;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: bold;
+                color: #dfe2e5;
+                text-align: right;
+                line-height: 25px;
+                margin: 0px;
+                padding: 0px 5px 0px 0px;
+            }
+            .editcontentitemcontent {
+                width: 375px;
+                height: 23px;
+                margin: 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #000;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemcontentgrey {
+                width: 375px;
+                height: 23px;
+                margin: 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #6b6c6e;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemcontentgreyshort {
+                width: 150px;
+                height: 23px;
+                margin: 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #6b6c6e;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemcontentred {
+                width: 375px;
+                height: 23px;
+                margin: 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: bold;
+                color: red;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemlongleft {
+                width: 110px;
+                float: left;
+             }
+             .editcontentiteminfotext {
+                 width: 110px;
+                 height: 24px;
+                 line-height: 24px;
+                 margin: 40px 0px 0px 0px;
+                 padding: 0px;
+                 font-family: verdana;
+                 font-size: 11px;
+                 font-weight: bold;
+                 font-style: italic;
+                 text-align: center;
+                 background-color: #4c4d4f;
+                 color: #dfe2e5;
+             }
+             .editcontentitemlongright {
+                width: 402px;
+                float: left;
+            }
+                .editcontentitemcontentlong {
+                    width: 375px;
+                    height: 103px;
+                    margin: 0px;
+                    padding: 5px 5px 5px 10px;
+                    font-family: verdana;
+                    font-size: 11px;
+                    font-weight: normal;
+                    color: #000;
+                    text-align: left;
+                    background-color: #CDD1D4;
+                    float: left;
+                    border: 1px;
+                    border-style: solid;
+                    border-color: #4c4d4f;
+                }
+                .editcontentitemcontentlonggrey {
+                    width: 375px;
+                    height: 103px;
+                    margin: 0px;
+                    padding: 5px 5px 5px 10px;
+                    font-family: verdana;
+                    font-size: 11px;
+                    font-weight: normal;
+                    color: #6b6c6e;
+                    text-align: left;
+                    background-color: #CDD1D4;
+                    float: left;
+                    border: 1px;
+                    border-style: solid;
+                    border-color: #4c4d4f;
+                }
+                    .editcontentitemlonginftext {
+                        width: 300px;
+                        margin: 0px 0px 0px 100px;
+                        padding: 0px;
+                        float: left;
+                    }
+                        .editcontentitemlonginftexttitle {
+                            height: 24px;
+                            width: 254px;
+                            padding: 0px 10px 0px 10px;
+                            margin: 0px;
+                            float: left;
+                            line-height: 24px;
+                            font-family: verdana;
+                            font-size: 10px;
+                            font-weight: noral;
+                            font-style: normal;
+                            color: #dfe2e5;
+                            background-color: #4c4d4f;
+                        }
+                        .editcontentitemcontentlonginftext {
+                            width: 275px;
+                            height: 103px;
+                            margin: 0px;
+                            padding: 5px 5px 5px 10px;
+                            font-family: verdana;
+                            font-size: 11px;
+                            font-weight: normal;
+                            color: #000;
+                            text-align: left;
+                            background-color: #CDD1D4;
+                            float: left;
+                            border: 1px;
+                            border-style: solid;
+                            border-color: #4c4d4f;
+                        }
+            .editcontentitemtitletab {
+                width: 105px;
+                height: 25px;
+                float: left;
+                background-color: #4c4d4f;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: bold;
+                color: #dfe2e5;
+                text-align: right;
+                line-height: 25px;
+                margin: 0px 0px 1px 0px;
+                padding: 0px 5px 0px 0px;
+            }
+            .editcontentitemcontenttab {
+                width: 175px;
+                height: 23px;
+                margin: 0px 150px 1px 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #000;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemcontenttabgrey {
+                width: 175px;
+                height: 23px;
+                margin: 0px 150px 1px 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #6b6c6e;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+            }
+            .editcontentitemgraphtab {
+                width: 375px;
+                height: 100px;
+                margin: 0px 0px 1px 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #6b6c6e;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f; 
+            }
+            .editcontentitemcontexttab {
+                width: 375px;
+                height: 100px;
+                margin: 0px 0px 1px 0px;
+                padding: 0px 5px 0px 10px;
+                font-family: verdana;
+                font-size: 11px;
+                font-weight: normal;
+                color: #000;
+                text-align: left;
+                line-height: 23px;
+                background-color: #CDD1D4;
+                float: left;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f; 
+            }
+            .editcontentitemcontexttab {}
+    #editcontentrightcontainer {
+        width: 412px;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        text-align: left;
+    }
+        .flagitemcontainer {
+            width: 380px;
+            height: 226px;
+            margin: 0px 15px 20px 15px;
+            padding: 0px;
+            float: left;
+        }
+            .flagitemtop {
+                width: 380px;
+                height: 24px;
+                float: left;
+                margin: 0px;
+                padding: 0px;
+            }
+                .flagitemname {
+                    height: 24px;
+                    margin: 0px;
+                    padding: 0px 10px 0px 10px;
+                    line-height: 24px;
+                    margin: 0px;
+                    background-color: #4c4d4f;
+                    float: left;
+                    font-family: verdana;
+                    font-size: 10px;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: #dfe2e5;
+                }
+                    .flagitemnameimage {
+                        height: 15px;
+                        padding: 0px;
+                        margin: 5px 0px 4px 0px;
+                        float: left;
+                    }
+                    .flagitemnametext {
+                        height: 24px;
+                        padding: 0px 10px 0px 5px;
+                        margin: 0px;
+                        float: left;
+                    }
+                    .flagitemremaining {
+                        height: 24px;
+                        line-height: 24px;
+                        font-family: verdana;
+                        font-size: 10px;
+                        font-weight: normal;
+                        font-style: italic;
+                        color: #000;
+                        float: left;
+                        margin: 0px 0px 0px 10px;
+                        padding: 0px;
+                    }
+                .flagitemdelete {
+                    height: 15px;
+                    width: 15px;
+                    padding: 5px 5px 4px 5px;
+                    margin: 0px;
+                    float: left;
+                    background-color:  #4c4d4f;
+                    float: right;
+                }
+            .flagitemcontent {
+                width: 368px;
+                height: 200px;
+                margin: 0px;
+                padding: 5px;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+                float: left;
+                background-color: #CDD1D4;
+            }
+            .standardselect {
+                width: 250px;
+                height: 25px;
+                background-color: #CDD1D4;
+                border: 1px;
+                border-style: solid;
+                border-color: #4c4d4f;
+                margin: 0px;
+                padding: 0px;
+                float: left;
+            }
+        .editpagesubmit {
+             width: 150px;
+             height: 35px;
+             background-color: #3988b6;
+             border: 0px;
+             margin: 29px 0px 0px 22px;
+             padding: 0px;
+             float: left;
+             text-align: center;
+             font-family: verdana;
+             font-size: 18px;
+             font-weight: bold;
+             font-style: normal;
+             color: #dfe2e5;
+             border: 1px;
+             border-color: #4c4d4f;
+             border-style: solid;
+        }
+        .editpagecancel {
+             width: 150px;
+             height: 33px;
+             background-color: #4c4d4f;
+             border: 0px;
+             margin: 29px 0px 0px 187px;
+             padding: 0px;
+             float: left;
+             text-align: center;
+             font-family: verdana;
+             font-size: 18px;
+             font-weight: bold;
+             font-style: normal;
+             color: #dfe2e5;
+             border: 1px;
+             border-color: #4c4d4f;
+             border-style: solid;
+             text-decoration: none;
+             line-height: 33px;
+        }

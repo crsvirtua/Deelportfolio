@@ -1,0 +1,372 @@
+#profileleft {
+    width: 248px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+   background-color: #D9F0F6;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #7FCBE1;
+    float: left;
+}
+    #navigator {
+        height: 41px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+        #stepback {
+            width: 246px;
+            height: 41px;
+            margin: 0px 1px 1px 1px;
+            padding: 0px;
+            background-color: #D9F0F6;
+        }
+    .selectedschool {
+        margin: 2px 0px 0px 0px;
+        padding: 0px;
+        background-color: #D9F0F6;
+        float: left;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 1px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #b8b9bb;
+    }
+        .schoolname {
+            width: 238px;
+            height: 35px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            background-color: #6d9de5;
+            font-family: verdana; 
+            font-size: 14px;
+            font-weight: normal;
+            text-align: center;
+            color: #000000;
+            line-height: 32px;
+        }
+        .schooladdress {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 23px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schoolbusiness1 {
+            width: 260px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 23px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: right;
+            color: #595959;
+        }
+        
+        .schooltype {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 35px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #D9F0F6;
+        }
+        .schoolextra {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schoolboard {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #D9F0F6;
+         
+        }
+        .schoolwebsite {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #EDF8FB;
+        }
+        .schoolstudents {
+            width: 238px;
+            height: 30px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;  
+            line-height: 29px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            background-color: #D9F0F6;
+        }
+        .schoolpicture {
+            margin: 0px;
+            padding: 12px 22px 15px 22px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+          background-color: #D9F0F6;
+        }
+        .schoolmission {
+            width: 238px;
+            margin: 0px;
+            padding: 0px 5px 0px 5px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #D9F0F6;
+            
+        }
+        .schoolvision {
+            width: 238px;
+            margin: 0px;
+            padding: 0px 5px 10px 5px;
+            font-family: verdana; 
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #595959;
+            background-color: #D9F0F6;
+        }
+        
+#profileright {
+    width: 757px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+    #profilerighttop {
+        width: 757px;
+        margin: 0px;
+        padding: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 3px;
+        border-left: 0px;
+        border-style: solid;
+        border-color: #267af7;
+        float: left;
+    }
+        #profiletabs {
+            min-width: 300px;
+            margin: -2px 0px 0px -40px;
+            padding: 0px;
+            float: left;
+        }
+            .tabitem {
+                float: left;
+                line-height: 24px;
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+            }
+            .tabitem li {
+                height: 24px;
+                display: inline;
+                margin: 0px;
+            }
+            .tabitem a {
+                height: 24px;
+                padding: 3px 10px 3px 10px;
+                color: #000000;
+                font-family: verdana;
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: none;      
+                background-image:url('../../imgFrontend/menubackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+            }
+            .tabitem a:hover {
+                height: 24px;
+                line-height: 24px;
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+                color: #FFFFFF;
+            }
+            .currenttabitem {
+                float: left;
+                line-height: 24px;
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                
+            }
+            .currenttabitem li {
+                height: 24px;
+                display: inline;
+                margin: 0px;
+            }
+            .currenttabitem a {
+                height: 24px;
+                padding: 3px 10px 3px 10px;
+                color: #FFFFFF;
+                font-family: verdana;
+                font-size: 12px;
+                font-weight: normal;    
+                font-style: normal;
+                text-decoration: none;      
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+            }
+            .currenttabitem a:hover {
+                height: 24px;
+                line-height: 24px;
+                background-image:url('../../imgFrontend/menuhoverbackground.png');
+                background-repeat: repeat-x;
+                margin: 0px 1px 0px 0px;
+                color: #e0e1e3;
+            }
+        .image {
+            border: 0px;
+        }
+    #profilerightcontent {
+        width: 757px;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        background-color: #D9F0F6;
+    }
+        .profileschool {
+            width: 747px;
+            height: 229px;
+            padding: 3px 5px 3px 5px;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px;
+            border-left: 0px;
+            border-style: solid;
+            border-color: #7FCBE1;
+            float: left;
+        }
+            .profileschoolgraph {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+            }
+            #profileschoolgraph1 {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 503px;
+                height: 215px;
+            }   
+           
+            #profileschoolgraph1big {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 740px;
+                height: 220px;
+            }  
+            #profileschoolgraph1bigVO {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 510px;
+                height: 220px;
+            } 
+            #profileschoolgraph1bigadvice {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 230px;
+                height: 220px;
+            }  
+            #profileschooldata {
+                float: left;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 200px;
+                height: 220px;
+            }  
+            #profileschooldata2 {
+                float: right;
+                margin: 0px;
+                padding: 5px 0px 0px 2px;
+                width: 540px;
+                height: 220px;
+            }  
+            .compareschooltext {
+                width: 737px;
+                padding: 10px 10px 10px 10px;
+                margin: 0px 0px 10px 0px;
+                border-top: 0px;
+                border-right: 0px;
+                border-bottom: 1px;
+                border-left: 0px;
+                border-style: solid;
+                border-color: #7FCBE1;
+                float: left;
+                font-family: verdana; 
+                font-size: 12px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
+            .compareschooltextmall {
+                width: 317px;
+                float: left;
+                margin: 0px;
+                padding: 5px 10px 5px 15px;
+                font-family: verdana; 
+                font-size: 12px;
+                font-weight: normal;
+                text-align: left;
+                color: #595959;
+            } 
